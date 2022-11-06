@@ -5,7 +5,7 @@ import { cartState, cartTotal } from '../cartSate'
 function CartInfo() {
   const  carts = useRecoilValue(cartState)
   const total = useRecoilValue(cartTotal)
-  console.log('cart2', carts)
+
   return (
     <div>
     <h2>CartInfo</h2>
